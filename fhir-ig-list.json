@@ -7522,6 +7522,28 @@
       "product" : ["fhir"]
     },
     {
+      "name" : "SMART PCMT",
+      "category" : "pcmt",
+      "npm-name" : "smart.who.int.trust",
+      "description" : "SMART Product Catalogue Management Tool (PCMT) Implementation Guide",
+      "authority" : "World Health Organization",
+      "country" : "uv",
+      "history" : "http://smart.who.int/pcmt/history.html",
+      "language" : ["en"],
+      "canonical" : "http://smart.who.int/pcmt",
+      "ci-build" : "http://worldhealthorganization.github.io/smart-pcmt",
+      "editions" : [
+        {
+          "name" : "0.1.0 release",
+          "ig-version" : "0.1.0",
+          "package" : "smart.who.int.pcmt#0.1.0",
+          "fhir-version" : ["5.0.0"],
+          "url" : "http://smart.who.int/trust/v0.1.0"
+        }
+      ],
+      "product" : ["fhir"]
+    },
+    {
       "name" : "SMART Trust",
       "category" : "trust",
       "npm-name" : "smart.who.int.trust",
